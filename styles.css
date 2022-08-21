@@ -1,0 +1,179 @@
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    text-align: center;
+
+}
+
+.star {
+    display: inline-block;
+    border-radius: 100%;
+    background-color: hsl(213, 19%, 18%);
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+}
+
+img {
+    width: 1.25rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text {
+    text-align: left;
+    position: relative;
+    top: 25%;
+    padding: 0 1rem;
+
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.p {
+    color: hsl(216, 12%, 54%);
+    font-size: 1rem;
+    margin-top: 1rem;
+    word-spacing: 0.1rem;
+}
+
+.buttons {
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+button {
+    color: hsl(216, 12%, 54%);
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+    margin: auto 0.5rem;
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+}
+.buttons-num:hover {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+.buttons-num:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit {
+    letter-spacing: 0.25rem;
+    color: white;
+    position: relative;
+    top: 30%;
+    border-radius: 2rem;
+    height: 3.5rem;
+    width: 25rem;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+}
+
+.container {
+    height: 30rem;
+    width: 29.5rem;
+    
+    /* centering the card */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color:  hsl(214, 24%, 13%);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.credit {
+    color: hsl(216, 12%, 54%);
+    font-size: 0.75rem;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.credit-a {
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+}
+.credit-a:hover {
+    color: hsl(25, 97%, 53%);
+}
+.non-visible {
+    display: none;
+}
+
+.thank-text {
+    text-align: center;
+    position: relative;
+    top: 65%;
+    padding: 0 1rem;
+}
+
+#thank-img {
+    width: 12rem;
+    position: fixed;
+    top: 25%;
+}
+
+.thank-divp {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: hsl(213, 19%, 18%);
+display: inline-block;
+border-radius: 2rem;
+height: 2.5rem;
+width: 14rem;
+}
+.thank-p {
+    color: hsl(25, 97%, 53%);
+    font-size: 1.1rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media (max-width: 700px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+    
+}
+@media (max-width: 380px) {
+    html {
+        font-size: 11px;
+    }
+    
+}
+@media (max-width: 340px) {
+    html {
+        font-size: 10px;
+    }
+    
+}
+@media (max-width: 300px) {
+    html {
+        font-size: 9px;
+    }
+    
+}

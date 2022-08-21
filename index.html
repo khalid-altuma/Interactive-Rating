@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Interactive Rating Component</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+
+  <div class="container">
+
+    <img src="images/illustration-thank-you.svg" alt="thank you image" class="non-visible" id="thank-img">        <!--  show after submiting   -->
+    <div id="thank-divp" class="non-visible"><p id="thank-p" class="non-visible"></p></div>     <!--  show after submiting   -->
+
+    <div class="star">
+      <img src="images/icon-star.svg" alt="">
+    </div>
+
+    <div id="text" class="text">
+      <h1>How did we do?</h1> 
+      <p class="p">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p> 
+    </div>
+
+    <div class="buttons">
+      <button class="buttons-num" id="1">1</button><button class="buttons-num" id="2">2</button><button class="buttons-num" id="3">3</button><button class="buttons-num" id="4">4</button><button class="buttons-num" id="5">5</button>
+    </div>
+  
+    <br>
+
+    <button class="submit" disabled>SUBMIT</button>
+
+  </div>
+
+  <div class="attribution">
+    <p class="credit">Coded by <a class="credit-a" href="https://github.com/khalid-altuma">@Khalid_Altuma</a></p> 
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
